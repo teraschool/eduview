@@ -3,7 +3,8 @@
     "allow": [
       "Bash(python3 reorganize.py --dry-run)",
       "Bash(python3 *)",
-      "Bash(grep -v -E \"^/Users/kwaka1208/Downloads/eduview/eduview_static$|wp-content|category|eduview|[0-9]|page_id\")"
+      "Bash(grep -v -E \"^/Users/kwaka1208/Downloads/eduview/eduview_static$|wp-content|category|eduview|[0-9]|page_id\")",
+      "Bash([ -d \"/Users/kwaka1208/git/01_web/eduview_static/$dir\" ])"
     ]
   }
 }
